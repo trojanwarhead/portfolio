@@ -59,7 +59,7 @@ a:focus {
 }
 
 .js .loading::after {
-	content: '- - -';
+	content: '- - - - - -';
 	font-family: 'Roboto Mono', monospace;
 	font-size: 1.5em;
 	position: absolute;
@@ -75,19 +75,19 @@ a:focus {
 
 @keyframes animLoader {
 	0% {
-		content: '- - -';
+		content: '< D e v e l o p e r />';
 	}
 	25% {
-		content: 'd - -';
+		content: 'T i n _ k e r e r';
 	}
 	50% {
-		content: '- - c';
+		content: 'E n g i n e e r -';
 	}
 	75% {
-		content: '- / -';
+		content: 'D _ e $ i g n e r';
 	}
 	100% {
-		content: 'd - c';
+		content: 'H W _ H 4 C K 3 R';
 	}
 }
 
@@ -208,7 +208,7 @@ a:focus {
 }
 
 .menu--code {
-	font-size: 1em;
+	font-size: 1.4em;
 	flex: none;
 	width: 100%;
 	margin: auto 0 2em 0;
@@ -308,7 +308,7 @@ a:focus {
 	width: 100%;
 	height: 100%;
 	pointer-events: none;
-	background: rgba(107, 87, 86, 0.22);
+	background: rgba(58, 89, 93, 0.24);
 	opacity: 0;
 }
 
@@ -326,7 +326,7 @@ a:focus {
 		font-size: 0.85em;
 	}
 	.menu {
-		font-size: 1em;
+		font-size: 1.2em;
 	}
 	.content__inner {
 		padding: 1em 1em 0;
