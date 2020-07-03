@@ -1,0 +1,35 @@
+.flex-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.icon-3d {
+  padding: 10px 20px;
+  -webkit-animation: icon3d 200ms 20;
+  animation: icon3d 200ms 20;
+  color: #ffffff75;
+}
+.icon-3d:hover {
+  -webkit-animation: icon3d 200ms infinite;
+  animation: icon3d 200ms infinite;
+}
+
+@keyframes icon3d {
+  0% {
+    text-shadow: 3px 2px #ff6275, -3px -2px #00ffff;
+  }
+  25% {
+    text-shadow: -1px -2px #ff6275, 3px 1px #00ffff;
+  }
+
+}
