@@ -24,6 +24,7 @@ a {
 	color: #6dcc9e;
 	outline: none;
 	cursor: pointer;
+	user-select: none;
 }
 
 a:hover {
@@ -257,8 +258,9 @@ a:focus {
 	position: relative;
 	display: inline-block;
 	margin: 0 1.5em 0 0;
-	padding: 0 0 0.15em;
-	color: #585656;
+	padding: 8px;
+	transform: skew(-14deg);
+	color: aqua;
 }
 
 .switch__item span {
@@ -280,13 +282,13 @@ a:focus {
 
 .switch__item:first-child::after {
 	content: '';
-	position: absolute;
-	top: -5%;
-	left: calc(100% + 0.75em);
-	width: 1px;
-	height: 110%;
-	background: #464646;
-	transform: rotate(22.5deg);
+    position: absolute;
+    top: 3%;
+    left: calc(100% + 0.75em);
+    width: 1px;
+    height: 86%;
+    background: #ffffff;
+    transform: rotate(0.5deg);
 }
 
 .link-wrap {
