@@ -177,10 +177,10 @@ a:focus {
 
 .controls {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: center;
 	width: 9em;
-	margin: 1em 0 0 auto;
+	margin: 0 0 0 auto;
 }
 
 .codrops-icon {
@@ -301,6 +301,7 @@ a:focus {
 .contact-link {
 	display: inline-block;
 	padding: 1em 0;
+	text-align: end;
 }
 
 .overlay {
