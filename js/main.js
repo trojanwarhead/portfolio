@@ -469,7 +469,8 @@
 	function init() {
 		imagesLoaded(DOM.body, { background: true }, function() {
 			// Remove page loader.
-			DOM.loading.classList.add('loading--hide');
+			
+			setTimeout(function(){ DOM.loading.classList.add('loading--hide'); }, 3000);
 			// Create the image pieces.
 			pm = new PieceMaker(DOM.pieces);
 			// Start the squares loop effect on the main image.
